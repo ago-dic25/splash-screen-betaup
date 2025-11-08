@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "acceso-a-recursos-del-dispositivo-betaup",
+    "slug": "acceso-a-recursos-del-dispositivo-betaup",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta aplicación necesita acceso a la cámara para tomar fotos.",
+        "NSPhotoLibraryUsageDescription": "Esta aplicación necesita acceso a la galería para guardar las fotos."
+      }
+    },
+    "android": {},
+    "web": {}
+  }
+}
